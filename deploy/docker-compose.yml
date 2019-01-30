@@ -1,0 +1,17 @@
+version: "3.1"
+services:
+  laravel:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    ports:
+    - 8181:8181
+  database:
+    image: mysql
+    ports:
+    - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: 770770
+      MYSQL_DATABASE: docker_db
+    volumes:
+    - /var/lib/mysql
