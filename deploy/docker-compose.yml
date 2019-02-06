@@ -1,13 +1,29 @@
 version: "3.1"
 services:
-  laravel:
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    ports:
+    - 8080:8080
+    command: sh -c "npm install && npm run dev"
+    volumes:
+    - "/var/www/docker-project/frontend:/app"
+    environment:
+      HOST: 0.0.0.0
+  backend:
     build:
       context: ../backend
       dockerfile: Dockerfile
     ports:
     - 8181:8181
+    volumes:
+      - "/var/www/docker-project/backend:/app"
+      - "/var/www/docker-project/config/php:/usr/local/etc/php"
+    depends_on:
+      - database
   database:
-    image: mysql
+    image: mysql:5.7
     ports:
     - 3306:3306
     environment:
