@@ -25,8 +25,6 @@ test() {
 
 up() {
     echo "installing npm...."
-#    cd ./frontend/ &&
- #    npm install &&
     cd ./deploy &&
     clean_ports
     echo "starting docker....."
