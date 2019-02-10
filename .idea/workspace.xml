@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd104876-af27-4d51-b567-9a52e7add96f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/deploy/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
           <entry key="php" value="32" />
           <entry key="scss" value="1" />
           <entry key="sh" value="3" />
-          <entry key="vue" value="5" />
+          <entry key="vue" value="6" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
@@ -61,7 +60,7 @@
           <entry key="PHP" value="32" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="1" />
-          <entry key="Vue.js" value="5" />
+          <entry key="Vue.js" value="6" />
           <entry key="YAML" value="4" />
           <entry key="htaccess" value="2" />
         </counts>
@@ -75,7 +74,7 @@
           <entry key="html" value="515" />
           <entry key="js" value="550" />
           <entry key="json" value="1" />
-          <entry key="md" value="2129" />
+          <entry key="md" value="2138" />
           <entry key="php" value="1014" />
           <entry key="sh" value="1071" />
           <entry key="vue" value="30" />
@@ -91,7 +90,7 @@
           <entry key="HTML" value="515" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="550" />
-          <entry key="Markdown" value="2129" />
+          <entry key="Markdown" value="2138" />
           <entry key="PHP" value="1014" />
           <entry key="PLAIN_TEXT" value="801" />
           <entry key="Vue.js" value="30" />
@@ -139,10 +138,20 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="449">
-                <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              </first_editor>
+              <first_editor />
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#router-view#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -456,18 +465,18 @@
       <option name="presentableId" value="Default" />
       <updated>1548834567972</updated>
       <workItem from="1548834569097" duration="7369000" />
-      <workItem from="1548845661347" duration="55581000" />
+      <workItem from="1548845661347" duration="55789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62950000" />
+    <option name="totallyTimeSpent" value="63158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19624102" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.110558316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -480,7 +489,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997236" visible="true" weight="0.36192468" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4997236" visible="true" weight="0.36192468" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002764" side_tool="true" weight="0.45920503" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -664,16 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#router-view#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -802,12 +801,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#router-view#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="449">
-            <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
