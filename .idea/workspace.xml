@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd104876-af27-4d51-b567-9a52e7add96f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +76,7 @@
           <entry key="html" value="533" />
           <entry key="js" value="550" />
           <entry key="json" value="1" />
-          <entry key="md" value="2224" />
+          <entry key="md" value="2239" />
           <entry key="php" value="1014" />
           <entry key="sh" value="1075" />
           <entry key="vue" value="30" />
@@ -95,7 +92,7 @@
           <entry key="HTML" value="533" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="550" />
-          <entry key="Markdown" value="2224" />
+          <entry key="Markdown" value="2239" />
           <entry key="PHP" value="1014" />
           <entry key="PLAIN_TEXT" value="801" />
           <entry key="Vue.js" value="30" />
@@ -143,8 +140,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="297">
-                <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <first_editor>
+                <caret column="18" selection-start-column="18" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -453,12 +450,12 @@
       <updated>1548834567972</updated>
       <workItem from="1548834569097" duration="7369000" />
       <workItem from="1548845661347" duration="56853000" />
-      <workItem from="1549812028824" duration="249000" />
+      <workItem from="1549812028824" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64471000" />
+    <option name="totallyTimeSpent" value="64845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -763,8 +760,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="297">
-            <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <first_editor>
+            <caret column="18" selection-start-column="18" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>

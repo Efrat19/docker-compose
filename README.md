@@ -1,5 +1,4 @@
-<span align="right"><img src="https://github.com/Efrat19/docker-compose/master/docker-compose.svg"></span>
-<p align="center"></p>
+![docker-compose]()
 
 ### This project is:
 
@@ -17,7 +16,7 @@
  ### How to run it?
  
  ##### Run `./run.sh up` to start.
- ##### See the result at `localhost:8080`.
+ ##### See the result at `localhost:8080`. :grinning:
  ##### When your done, run `./run.sh down`
  
  ###### This project was created and tested on linux/ubuntu16.04.5.
