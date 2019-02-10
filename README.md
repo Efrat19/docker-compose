@@ -1,4 +1,4 @@
-![docker-compose]()
+![docker-compose](docker-compose.png)
 
 ### This project is:
 
