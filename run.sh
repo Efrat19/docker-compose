@@ -31,12 +31,9 @@ up() {
     clean_ports
     echo "starting docker....."
 #    docker-compose build &&
-    docker-compose up &&
+    docker-compose up -d &&
     sleep 5 &&
     docker-compose exec backend php artisan migrate
-
-#    docker-compose exec backend bash
-#    docker-compose exec backend php artisan migrate -v
 }
 
 down(){
