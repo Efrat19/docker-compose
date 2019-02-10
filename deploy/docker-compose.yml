@@ -4,6 +4,7 @@ services:
     build:
       context: ../frontend
       dockerfile: Dockerfile
+    tty: true
     ports:
     - 8080:8080
     command: sh -c "npm install && npm run dev"
@@ -17,6 +18,7 @@ services:
     build:
       context: ../backend
       dockerfile: Dockerfile
+    tty: true
     ports:
     - 8181:8181
     volumes:
@@ -27,6 +29,7 @@ services:
       - database
   database:
     image: mysql:5.7
+    tty: true
     ports:
     - 3306:3306
     environment:
