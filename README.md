@@ -17,6 +17,8 @@
  ### How to run it?
  
  ##### Run `./run.sh up` to start.
+ ##### In a different terminal,
+ ##### run `cd deploy/ && docker-compose exec backend php artisan migrate && cd ../` to migrate the tables.
  ##### See the result at `localhost:8080`.
  ##### When your done, run `./run.sh down`
  
