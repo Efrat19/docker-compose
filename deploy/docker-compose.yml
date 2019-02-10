@@ -20,6 +20,7 @@ services:
     volumes:
       - "/var/www/docker-project/backend:/app"
       - "/var/www/docker-project/config/php:/usr/local/etc/php"
+      - "/var/lib/docker/containers:/containersData"
     depends_on:
       - database
   database:
