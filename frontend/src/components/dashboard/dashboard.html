@@ -1,0 +1,18 @@
+
+<section class="dashboard" >
+  <img class="docker-logo" src="../../assets/docker.png" height="216" width="413">
+  <table>
+    <tr>
+      <th>name</th>
+      <th>ports</th>
+      <th>volumes</th>
+    </tr>
+    <tr v-if="containers" v-for="(container,index) in containers" :key="index">
+      <td>{{container.name}}</td>
+      <td><pre>{{container.port}}</pre></td>
+      <td><pre>{{container.volume}}</pre></td>
+    </tr>
+  </table>
+  <button class="btn btn-primary" @click="requestContainers()">Refresh</button>
+</section>
+

@@ -1,0 +1,15 @@
+
+<section class="add-container">
+  <form @submit.prevent="create">
+    <div class="form-group">
+      <label for="name">name:</label>
+      <input type="text" class="form-control" id="name" v-model="name">
+    </div>
+    <div class="form-group">
+      <label for="port">port:</label>
+      <input type="text" class="form-control" id="port" v-model="port">
+    </div>
+    <button type="submit" class="btn btn-default">Add Container</button>
+  </form>
+</section>
+
