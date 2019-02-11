@@ -40,7 +40,9 @@ cat << "EOF"
 EOF
 }
 up() {
-    cd ./deploy &&
+    cd ./backend &&
+    composer install &&
+    cd ../deploy &&
     clean_ports
     echo "starting docker....."
     docker-compose build &&
@@ -56,7 +58,7 @@ up() {
 up_mac(){
     cd ./deploy &&
     echo "starting docker....."
-    docker-compose up --build &&
+    docker-compose up &&
     echo ""
     print_docker
     echo ""
