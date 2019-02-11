@@ -16,7 +16,7 @@
  ### How to run it?
  
  ##### Run `./run.sh up` to start.
- ##### The build takes about 2 minutes. Meanwhile, you can read the [docker-compose docs](https://docs.docker.com/compose/overview/) for better understanding of whats going on here.
+ ##### The build takes about 2 minutes. Meanwhile, you can read the [docker-compose docs](https://docs.docker.com/compose/overview/){:target="_blank"} for better understanding of whats going on here.
  ##### See the result at `localhost:8080`. :grinning:
  ##### When your done, run `./run.sh down`
  
