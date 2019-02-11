@@ -22,16 +22,32 @@ clean_ports(){
 test() {
     echo "ya it works"
 }
+print_docker(){
+cat << "EOF"
+                    ##        .
+              ## ## ##       ==
+           ## ## ## ##      ===
+       /""""""""""""""""\___/ ===
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+       \______ o          __/
+         \    \        __/
+          \____\______/
 
+          |          |
+       __ |  __   __ | _  __   _
+      /  \| /  \ /   |/  / _\ |
+      \__/| \__/ \__ |\_ \__  |
+EOF
+}
 up() {
     echo "installing npm...."
     cd ./deploy &&
     clean_ports
     echo "starting docker....."
     docker-compose build &&
-    docker-compose up -d
-#    sleep 15 &&
-#    docker-compose exec backend php artisan migrate
+    docker-compose up -d &&
+    print_docker
+    echo "your app is waiting for you at localhost:8080"
 }
 
 down(){
