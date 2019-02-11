@@ -13,10 +13,17 @@ class ContainerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function index()
     {
-        $dir = '/containersData';
         header('Access-Control-Allow-Origin: *');
+        $output=[];
+        exec('cd '.base_path().' && php artisan migrate',$output,$return);
+        if($return){
+            dd($output);
+            return response('database error. try refreshing.',500);
+        }
+        $dir = '/containersData';
         $cons = array();
         Container::truncate();
         foreach (scandir($dir) as $row) {
