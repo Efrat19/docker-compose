@@ -53,10 +53,10 @@ up() {
     echo ""
 }
 
-up_mac() {
+up_mac(){
     cd ./deploy &&
     echo "starting docker....."
-    docker-compose up &&
+    docker-compose up --build &&
     echo ""
     print_docker
     echo ""
