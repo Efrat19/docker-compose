@@ -80,7 +80,7 @@
           <entry key="html" value="533" />
           <entry key="js" value="550" />
           <entry key="json" value="1" />
-          <entry key="md" value="2383" />
+          <entry key="md" value="2388" />
           <entry key="php" value="1207" />
           <entry key="sh" value="1278" />
           <entry key="vue" value="64" />
@@ -96,7 +96,7 @@
           <entry key="HTML" value="533" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="550" />
-          <entry key="Markdown" value="2383" />
+          <entry key="Markdown" value="2388" />
           <entry key="PHP" value="1207" />
           <entry key="PLAIN_TEXT" value="810" />
           <entry key="Vue.js" value="64" />
@@ -145,7 +145,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="137">
-                <caret line="18" column="145" selection-start-line="18" selection-start-column="145" selection-end-line="18" selection-end-column="145" />
+                <caret line="18" column="159" selection-start-line="18" selection-start-column="159" selection-end-line="18" selection-end-column="159" />
               </first_editor>
               <second_editor />
             </state>
@@ -502,12 +502,12 @@
       <workItem from="1548845661347" duration="56853000" />
       <workItem from="1549812028824" duration="850000" />
       <workItem from="1549870076329" duration="3946000" />
-      <workItem from="1549876741077" duration="6316000" />
+      <workItem from="1549876741077" duration="6398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75334000" />
+    <option name="totallyTimeSpent" value="75416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -822,7 +822,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="137">
-            <caret line="18" column="145" selection-start-line="18" selection-start-column="145" selection-end-line="18" selection-end-column="145" />
+            <caret line="18" column="159" selection-start-line="18" selection-start-column="159" selection-end-line="18" selection-end-column="159" />
           </first_editor>
           <second_editor />
         </state>
