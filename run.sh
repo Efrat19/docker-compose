@@ -46,8 +46,12 @@ up() {
     echo "starting docker....."
     docker-compose build &&
     docker-compose up -d &&
+    echo ""
     print_docker
+    echo ""
     echo "your app is waiting for you at localhost:8080"
+    echo ""
+    echo ""
 }
 
 down(){

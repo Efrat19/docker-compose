@@ -1,7 +1,7 @@
 <template>
   <div id="app">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <router-view style="margin-left:30%;width:800px;margin-top:250px"></router-view>
+  <router-view style="margin-left:25%;width:100%;max-width:1000px;margin-top:10px"></router-view>
   </div>
 </template>
 
