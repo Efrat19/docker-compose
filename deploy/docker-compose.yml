@@ -9,7 +9,7 @@ services:
     - 8080:8080
     command: sh -c "npm install && npm run dev"
     volumes:
-    - "/var/www/docker-project/frontend:/app"
+    - "../frontend:/app"
     depends_on:
       - backend
     environment:
@@ -22,8 +22,8 @@ services:
     ports:
     - 8181:8181
     volumes:
-      - "/var/www/docker-project/backend:/app"
-      - "/var/www/docker-project/config/php:/usr/local/etc/php"
+      - "../backend:/app"
+      - "../config/php:/usr/local/etc/php"
       - "/var/lib/docker/containers:/containersData"
     depends_on:
       - database

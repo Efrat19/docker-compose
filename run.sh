@@ -40,12 +40,23 @@ cat << "EOF"
 EOF
 }
 up() {
-    echo "installing npm...."
     cd ./deploy &&
     clean_ports
     echo "starting docker....."
     docker-compose build &&
     docker-compose up -d &&
+    echo ""
+    print_docker
+    echo ""
+    echo "your app is waiting for you at localhost:8080"
+    echo ""
+    echo ""
+}
+
+up_mac() {
+    cd ./deploy &&
+    echo "starting docker....."
+    docker-compose up &&
     echo ""
     print_docker
     echo ""
@@ -62,6 +73,8 @@ case $@ in
     test) test
     ;;
     up) up
+    ;;
+ up_mac) up_mac
     ;;
     down) down
     ;;
