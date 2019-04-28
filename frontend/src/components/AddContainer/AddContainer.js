@@ -16,7 +16,7 @@ export default {
     },
     methods: {
         create() {
-            axios.post('http://0.0.0.0:8181/container', {name: this.name, port: this.port}).then(res => {
+            axios.post('http://localhost:8181/container', {name: this.name, port: this.port}).then(res => {
                 alert(res);
                 this.$router.push('/dashboard');
             }).catch((data)=>{alert(date)});

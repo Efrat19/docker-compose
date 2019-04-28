@@ -5,8 +5,8 @@ RUN docker-php-ext-install mysqli pdo pdo_mysql mbstring
 WORKDIR /app
 COPY . /app
 #RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
-RUN composer update --no-scripts 
 RUN composer install
+RUN composer update --no-scripts
 CMD php artisan serve --host=0.0.0.0 --port=8181
 EXPOSE 8181
 #/usr/local/etc/php

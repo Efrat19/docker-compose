@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     requestContainers(){
-        axios.get('http://0.0.0.0:8181/container').then(res => {
+        axios.get('http://localhost:8181/container').then(res => {
             console.log('res.data:',res.data);
             if(Array.isArray(res.data)){
                 res.data.forEach(container=>{
