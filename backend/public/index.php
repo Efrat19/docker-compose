@@ -6,7 +6,6 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
-
 define('LARAVEL_START', microtime(true));
 
 /*
@@ -55,6 +54,7 @@ $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
 );
 
+//phpinfo();die();
 $response->send();
 
 $kernel->terminate($request, $response);

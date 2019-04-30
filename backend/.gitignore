@@ -4,9 +4,10 @@
 /storage/*.key
 /vendor
 composer.lock
-.env
+
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+package-lock.json

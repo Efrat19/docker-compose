@@ -16,6 +16,7 @@ class ContainerController extends Controller
 
     public function index()
     {
+//        phpinfo();
         header('Access-Control-Allow-Origin: *');
         $output=[];
         exec('cd '.base_path().' && php artisan migrate',$output,$return);
