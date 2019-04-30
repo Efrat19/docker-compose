@@ -17,7 +17,7 @@
  
  ##### Run `./run.sh up` to start.
  ##### The build takes about 2 minutes. Meanwhile, you can read the <a href="https://docs.docker.com/compose/overview/" target="_blank">docker-compose docs</a> for better understanding of whats going on here.
- ##### See the result at `localhost:8080`. :grinning:
+ ##### See the result at http://localhost:8383. :grinning:
  ##### When your done, run `./run.sh down`
  
  ###### This project was created and tested on linux/ubuntu16.04.5.

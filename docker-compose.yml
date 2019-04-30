@@ -2,26 +2,25 @@ version: "3.1"
 services:
   frontend:
     build:
-      context: ../frontend
+      context: frontend
       dockerfile: Dockerfile
     tty: true
     ports:
     - 8383:80
-#    command: sh -c "npm install && npm run dev"
     volumes:
-    - "../frontend:/app"
+    - "./frontend:/app"
     depends_on:
       - backend
   backend:
     build:
-      context: ../backend
+      context: backend
       dockerfile: Dockerfile
     tty: true
     ports:
-    - 8181:8181
+    - 8181:8000
     volumes:
-      - "../backend:/app"
-      - "../config/php:/usr/local/etc/php"
+      - "./backend:/app"
+      - "./config/php:/usr/local/etc/php"
       - "/var/lib/docker/containers:/containersData"
     depends_on:
       - database
@@ -29,9 +28,7 @@ services:
     image: mysql:5.7
     tty: true
     environment:
-      MYSQL_ROOT_PASSWORD: 770770
-      MYSQL_USER: root
-      MYSQL_PASSWORD: 770770
+      MYSQL_ROOT_PASSWORD: secret
       MYSQL_DATABASE: docker_db
     volumes:
     - /var/lib/mysql

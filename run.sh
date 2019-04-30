@@ -13,7 +13,7 @@ clean_port(){
 }
 
 clean_ports(){
-    for i in 3306 8181 8080
+    for i in 8181 8383
         do
             clean_port $i
         done
@@ -40,43 +40,27 @@ cat << "EOF"
 EOF
 }
 up() {
-    cd ./backend &&
-    composer install &&
-    cd ../deploy &&
-    clean_ports
+    if [[ "`uname`"  == 'Linux' ]]; then
+        clean_ports
+    fi
     echo "starting docker....."
-    docker-compose build &&
-    docker-compose up -d &&
+    docker-compose up --build &&
     echo ""
     print_docker
     echo ""
-    echo "your app is waiting for you at localhost:8080"
-    echo ""
-    echo ""
-}
-
-up_mac(){
-    cd ./deploy &&
-    echo "starting docker....."
-    docker-compose up &&
-    echo ""
-    print_docker
-    echo ""
-    echo "your app is waiting for you at localhost:8080"
+    echo "your app is waiting for you at localhost:8383"
     echo ""
     echo ""
 }
 
 down(){
-cd ./deploy/
     docker-compose down
+    echo Bye!!
 }
 case $@ in
     test) test
     ;;
     up) up
-    ;;
- up_mac) up_mac
     ;;
     down) down
     ;;
