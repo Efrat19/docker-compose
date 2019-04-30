@@ -43,6 +43,9 @@ up() {
     if [[ "`uname`"  == 'Linux' ]]; then
         clean_ports
     fi
+    cd backend
+    composer install
+    cd ../
     echo "starting docker....."
     docker-compose up --build &&
     echo ""
